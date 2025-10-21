@@ -1,0 +1,131 @@
+created virtual environment CPython3.11.5.final.0-64 in 1467ms
+  creator CPython3Posix(dest=/local/scratch/zeyadk.3082812.0/env, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/zeyadk/.local/share/virtualenv)
+    added seed packages: pip==25.1.1, setuptools==80.7.1, wheel==0.45.1+computecanada
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+created virtual environment CPython3.11.5.final.0-64 in 1622ms
+  creator CPython3Posix(dest=/local/scratch/zeyadk.3082812.0/env, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/zeyadk/.local/share/virtualenv)
+    added seed packages: pip==25.1.1, setuptools==80.7.1, wheel==0.45.1+computecanada
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v4, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v4, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/torch-2.7.1+computecanada-cp311-cp311-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/torch-2.7.1+computecanada-cp311-cp311-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/filelock-3.20.0+computecanada-py3-none-any.whl (from torch)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/typing_extensions-4.15.0+computecanada-py3-none-any.whl (from torch)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/sympy-1.14.0+computecanada-py3-none-any.whl (from torch)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/networkx-3.5+computecanada-py3-none-any.whl (from torch)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/filelock-3.20.0+computecanada-py3-none-any.whl (from torch)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/jinja2-3.1.6+computecanada-py3-none-any.whl (from torch)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/typing_extensions-4.15.0+computecanada-py3-none-any.whl (from torch)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/sympy-1.14.0+computecanada-py3-none-any.whl (from torch)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/fsspec-2025.9.0+computecanada-py3-none-any.whl (from torch)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/networkx-3.5+computecanada-py3-none-any.whl (from torch)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/mpmath-1.3.0+computecanada-py3-none-any.whl (from sympy>=1.13.3->torch)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/MarkupSafe-3.0.2+computecanada-cp311-cp311-linux_x86_64.whl (from jinja2->torch)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/jinja2-3.1.6+computecanada-py3-none-any.whl (from torch)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/fsspec-2025.9.0+computecanada-py3-none-any.whl (from torch)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/mpmath-1.3.0+computecanada-py3-none-any.whl (from sympy>=1.13.3->torch)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/MarkupSafe-3.0.2+computecanada-cp311-cp311-linux_x86_64.whl (from jinja2->torch)
+Installing collected packages: mpmath, typing-extensions, sympy, networkx, MarkupSafe, fsspec, filelock, jinja2, torch
+Installing collected packages: mpmath, typing-extensions, sympy, networkx, MarkupSafe, fsspec, filelock, jinja2, torch
+
+Successfully installed MarkupSafe-3.0.2+computecanada filelock-3.20.0+computecanada fsspec-2025.9.0+computecanada jinja2-3.1.6+computecanada mpmath-1.3.0+computecanada networkx-3.5+computecanada sympy-1.14.0+computecanada torch-2.7.1+computecanada typing-extensions-4.15.0+computecanada
+
+Successfully installed MarkupSafe-3.0.2+computecanada filelock-3.20.0+computecanada fsspec-2025.9.0+computecanada jinja2-3.1.6+computecanada mpmath-1.3.0+computecanada networkx-3.5+computecanada sympy-1.14.0+computecanada torch-2.7.1+computecanada typing-extensions-4.15.0+computecanada
+r0 master: g13.nibi.sharcnet
+r0 Launching python script
+srun: Step created for StepId=3082812.1
+/local/scratch/zeyadk.3082812.0/env/lib/python3.11/site-packages/torch/_subclasses/functional_tensor.py:276: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at /tmp/build_wheels_tmp.6999/python-3.11/torch/torch/csrc/utils/tensor_numpy.cpp:81.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+/local/scratch/zeyadk.3082812.0/env/lib/python3.11/site-packages/torch/_subclasses/functional_tensor.py:276: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at /tmp/build_wheels_tmp.6999/python-3.11/torch/torch/csrc/utils/tensor_numpy.cpp:81.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+From Rank: 0, ==> Initializing Process Group...
+From Rank: 1, ==> Initializing Process Group...
+[2025-10-20 20:37:02.365140] Rank 1 sleeping for 18 seconds
+[2025-10-20 20:37:02.367676] Rank 0 sleeping for 34 seconds
+[2025-10-20 20:37:20.365285] Rank 1 hit the barrier
+/local/scratch/zeyadk.3082812.0/env/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+[rank1]:[W1020 20:37:20.201222780 ProcessGroupNCCL.cpp:4718] [PG ID 0 PG GUID 0 Rank 1]  using GPU 0 as device used by this process is currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. You can pecify device_id in init_process_group() to force use of a particular device.
+[2025-10-20 20:37:36.367805] Rank 0 hit the barrier
+/local/scratch/zeyadk.3082812.0/env/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+[rank0]:[W1020 20:37:36.178046277 ProcessGroupNCCL.cpp:4718] [PG ID 0 PG GUID 0 Rank 0]  using GPU 0 as device used by this process is currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. You can pecify device_id in init_process_group() to force use of a particular device.
+g15:2039491:2039491 [0] NCCL INFO cudaDriverVersion 13000
+g15:2039491:2039491 [0] NCCL INFO Bootstrap: Using enp0s20f0u5u2c2:169.254.3.1<0>
+g15:2039491:2039491 [0] NCCL INFO NCCL version 2.26.2+cuda12.6
+g15:2039491:2039491 [0] NCCL INFO Comm config Blocking set to 1
+g15:2039491:2039656 [0] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+g15:2039491:2039656 [0] NCCL INFO NET/IB : Using [0]mlx5_2:1/RoCE [1]mlx5_3:1/RoCE [RO]; OOB enp0s20f0u5u2c2:169.254.3.1<0>
+g15:2039491:2039656 [0] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+g15:2039491:2039656 [0] NCCL INFO Using network IB
+g15:2039491:2039656 [0] NCCL INFO DMA-BUF is available on GPU device 0
+g15:2039491:2039656 [0] NCCL INFO ncclCommInitRankConfig comm 0x556ec32e0ee0 rank 1 nranks 2 cudaDev 0 nvmlDev 0 busId 19000 commId 0x3b22b1d5f013cf6e - Init START
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (1/34) after sleep for 100 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (2/34) after sleep for 200 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (3/34) after sleep for 300 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (4/34) after sleep for 400 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (5/34) after sleep for 500 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (6/34) after sleep for 600 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (7/34) after sleep for 700 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (8/34) after sleep for 800 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (9/34) after sleep for 900 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (10/34) after sleep for 1000 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (11/34) after sleep for 1100 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (12/34) after sleep for 1200 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (13/34) after sleep for 1300 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (14/34) after sleep for 1400 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (15/34) after sleep for 1500 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (16/34) after sleep for 1600 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (17/34) after sleep for 1700 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (18/34) after sleep for 1800 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (19/34) after sleep for 1900 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (20/34) after sleep for 2000 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (21/34) after sleep for 2100 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (22/34) after sleep for 2200 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (23/34) after sleep for 2300 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (24/34) after sleep for 2400 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (25/34) after sleep for 2500 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (26/34) after sleep for 2600 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (27/34) after sleep for 2700 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (28/34) after sleep for 2800 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (29/34) after sleep for 2900 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (30/34) after sleep for 3000 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (31/34) after sleep for 3100 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (32/34) after sleep for 3200 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (33/34) after sleep for 3300 msec
+g15:2039491:2039656 [0] NCCL INFO socketPollConnect: connect returned Connection refused, retrying (34/34) after sleep for 3400 msec
+
+[2025-10-20 20:38:36] g15:2039491:2039656 [0] misc/socket.cc:544 NCCL WARN socketPollConnect: connect returned Connection refused, exceeded error retry count (35)
+g15:2039491:2039656 [0] NCCL INFO misc/socket.cc:635 -> 6
+g15:2039491:2039656 [0] NCCL INFO misc/socket.cc:684 -> 6
+g15:2039491:2039656 [0] NCCL INFO bootstrap.cc:605 -> 6
+g15:2039491:2039656 [0] NCCL INFO bootstrap.cc:687 -> 6
+g15:2039491:2039656 [0] NCCL INFO init.cc:1404 -> 6
+g15:2039491:2039656 [0] NCCL INFO group.cc:75 -> 6 [Async thread]
+g15:2039491:2039491 [0] NCCL INFO group.cc:422 -> 6
+g15:2039491:2039491 [0] NCCL INFO group.cc:581 -> 6
+g15:2039491:2039491 [0] NCCL INFO init.cc:1836 -> 6
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/home/zeyadk/Test_DDP/test_ddp.py", line 43, in <module>
+[rank1]:     main()
+[rank1]:   File "/home/zeyadk/Test_DDP/test_ddp.py", line 34, in main
+[rank1]:     dist.barrier()
+[rank1]:   File "/local/scratch/zeyadk.3082812.0/env/lib/python3.11/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[rank1]:     return func(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/local/scratch/zeyadk.3082812.0/env/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py", line 4635, in barrier
+[rank1]:     work = group.barrier(opts=opts)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]: torch.distributed.DistBackendError: NCCL error in: /tmp/build_wheels_tmp.6999/python-3.11/torch/torch/csrc/distributed/c10d/NCCLUtils.cpp:77, remote process exited or there was a network error, NCCL version 2.26.2
+[rank1]: ncclRemoteError: A call failed possibly due to a network error or a remote process exiting prematurely.
+[rank1]: Last error:
+[rank1]: socketPollConnect: connect returned Connection refused, exceeded error retry count (35)
+[rank1]:[W1020 20:38:36.173850072 ProcessGroupNCCL.cpp:1479] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+srun: error: g15: task 1: Exited with exit code 1
+srun: Terminating StepId=3082812.1
+slurmstepd: error: *** STEP 3082812.1 ON g13 CANCELLED AT 2025-10-20T20:38:36 ***
+srun: error: g13: task 0: Terminated
+srun: Force Terminated StepId=3082812.1

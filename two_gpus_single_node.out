@@ -1,0 +1,164 @@
+created virtual environment CPython3.11.5.final.0-64 in 569ms
+  creator CPython3Posix(dest=/local/scratch/zeyadk.3082314.0/env, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/zeyadk/.local/share/virtualenv)
+    added seed packages: pip==25.1.1, setuptools==80.7.1, wheel==0.45.1+computecanada
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v4, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/torch-2.7.1+computecanada-cp311-cp311-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/filelock-3.20.0+computecanada-py3-none-any.whl (from torch)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/typing_extensions-4.15.0+computecanada-py3-none-any.whl (from torch)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/sympy-1.14.0+computecanada-py3-none-any.whl (from torch)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/networkx-3.5+computecanada-py3-none-any.whl (from torch)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/jinja2-3.1.6+computecanada-py3-none-any.whl (from torch)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/fsspec-2025.9.0+computecanada-py3-none-any.whl (from torch)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/mpmath-1.3.0+computecanada-py3-none-any.whl (from sympy>=1.13.3->torch)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/MarkupSafe-3.0.2+computecanada-cp311-cp311-linux_x86_64.whl (from jinja2->torch)
+Installing collected packages: mpmath, typing-extensions, sympy, networkx, MarkupSafe, fsspec, filelock, jinja2, torch
+
+Successfully installed MarkupSafe-3.0.2+computecanada filelock-3.20.0+computecanada fsspec-2025.9.0+computecanada jinja2-3.1.6+computecanada mpmath-1.3.0+computecanada networkx-3.5+computecanada sympy-1.14.0+computecanada torch-2.7.1+computecanada typing-extensions-4.15.0+computecanada
+r0 master: g23.nibi.sharcnet
+r0 Launching python script
+/local/scratch/zeyadk.3082314.0/env/lib/python3.11/site-packages/torch/_subclasses/functional_tensor.py:276: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at /tmp/build_wheels_tmp.6999/python-3.11/torch/torch/csrc/utils/tensor_numpy.cpp:81.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+/local/scratch/zeyadk.3082314.0/env/lib/python3.11/site-packages/torch/_subclasses/functional_tensor.py:276: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at /tmp/build_wheels_tmp.6999/python-3.11/torch/torch/csrc/utils/tensor_numpy.cpp:81.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+From Rank: 0, ==> Initializing Process Group...
+From Rank: 1, ==> Initializing Process Group...
+[2025-10-20 20:30:45.850668] Rank 1 sleeping for 18 seconds
+[2025-10-20 20:30:45.857824] Rank 0 sleeping for 34 seconds
+[2025-10-20 20:31:03.850794] Rank 1 hit the barrier
+/local/scratch/zeyadk.3082314.0/env/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+[rank1]:[W1020 20:31:03.606075423 ProcessGroupNCCL.cpp:4718] [PG ID 0 PG GUID 0 Rank 1]  using GPU 1 as device used by this process is currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. You can pecify device_id in init_process_group() to force use of a particular device.
+[2025-10-20 20:31:19.857928] Rank 0 hit the barrier
+/local/scratch/zeyadk.3082314.0/env/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+[rank0]:[W1020 20:31:20.757793878 ProcessGroupNCCL.cpp:4718] [PG ID 0 PG GUID 0 Rank 0]  using GPU 0 as device used by this process is currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. You can pecify device_id in init_process_group() to force use of a particular device.
+g23:1096767:1096767 [0] NCCL INFO Bootstrap: Using enp0s20f0u5u2c2:169.254.3.1<0>
+g23:1096767:1096767 [0] NCCL INFO cudaDriverVersion 13000
+g23:1096767:1096767 [0] NCCL INFO NCCL version 2.26.2+cuda12.6
+g23:1096767:1096767 [0] NCCL INFO Comm config Blocking set to 1
+g23:1096767:1096965 [0] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+g23:1096767:1096965 [0] NCCL INFO NET/IB : Using [0]mlx5_2:1/RoCE [1]mlx5_3:1/RoCE [RO]; OOB enp0s20f0u5u2c2:169.254.3.1<0>
+g23:1096767:1096965 [0] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+g23:1096767:1096965 [0] NCCL INFO Using network IB
+g23:1096767:1096965 [0] NCCL INFO DMA-BUF is available on GPU device 0
+g23:1096767:1096965 [0] NCCL INFO ncclCommInitRankConfig comm 0x55bec57b6350 rank 0 nranks 2 cudaDev 0 nvmlDev 0 busId 5d000 commId 0x7373382c5ae51cf7 - Init START
+g23:1096767:1096965 [0] NCCL INFO RAS client listening socket at ::1<28028>
+g23:1096767:1096965 [0] NCCL INFO Bootstrap timings total 0.016252 (create 0.000028, send 0.000083, recv 0.002721, ring 0.012915, delay 0.000000)
+g23:1096767:1096965 [0] NCCL INFO MNNVL busId 0x5d000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+g23:1096767:1096965 [0] NCCL INFO comm 0x55bec57b6350 rank 0 nRanks 2 nNodes 1 localRanks 2 localRank 0 MNNVL 0
+g23:1096767:1096965 [0] NCCL INFO Channel 00/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 01/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 02/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 03/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 04/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 05/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 06/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 07/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 08/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 09/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 10/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 11/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 12/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 13/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 14/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 15/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 16/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 17/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 18/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 19/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 20/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 21/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 22/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Channel 23/24 : 0 1
+g23:1096767:1096965 [0] NCCL INFO Trees [0] 1/-1/-1->0->-1 [1] 1/-1/-1->0->-1 [2] 1/-1/-1->0->-1 [3] 1/-1/-1->0->-1 [4] 1/-1/-1->0->-1 [5] 1/-1/-1->0->-1 [6] -1/-1/-1->0->1 [7] -1/-1/-1->0->1 [8] -1/-1/-1->0->1 [9] -1/-1/-1->0->1 [10] -1/-1/-1->0->1 [11] -1/-1/-1->0->1 [12] 1/-1/-1->0->-1 [13] 1/-1/-1->0->-1 [14] 1/-1/-1->0->-1 [15] 1/-1/-1->0->-1 [16] 1/-1/-1->0->-1 [17] 1/-1/-1->0->-1 [18] -1/-1/-1->0->1 [19] -1/-1/-1->0->1 [20] -1/-1/-1->0->1 [21] -1/-1/-1->0->1 [22] -1/-1/-1->0->1 [23] -1/-1/-1->0->1
+g23:1096767:1096965 [0] NCCL INFO P2P Chunksize set to 524288
+g23:1096767:1096965 [0] NCCL INFO Check P2P Type intraNodeP2pSupport 1 directMode 0
+g23:1096767:1096981 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 109
+g23:1096767:1096980 [0] NCCL INFO [Proxy Service] Device 0 CPU core 108
+g23:1096767:1096965 [0] NCCL INFO threadThresholds 8/8/64 | 16/8/64 | 512 | 512
+g23:1096767:1096965 [0] NCCL INFO 24 coll channels, 24 collnet channels, 0 nvls channels, 32 p2p channels, 32 p2p channels per peer
+g23:1096767:1096965 [0] NCCL INFO CC Off, workFifoBytes 1048576
+g23:1096767:1096965 [0] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+g23:1096767:1096965 [0] NCCL INFO ncclCommInitRankConfig comm 0x55bec57b6350 rank 0 nranks 2 cudaDev 0 nvmlDev 0 busId 5d000 commId 0x7373382c5ae51cf7 - Init COMPLETE
+g23:1096768:1096768 [1] NCCL INFO cudaDriverVersion 13000
+g23:1096768:1096768 [1] NCCL INFO Bootstrap: Using enp0s20f0u5u2c2:169.254.3.1<0>
+g23:1096768:1096768 [1] NCCL INFO NCCL version 2.26.2+cuda12.6
+g23:1096768:1096768 [1] NCCL INFO Comm config Blocking set to 1
+g23:1096768:1096966 [1] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+g23:1096768:1096966 [1] NCCL INFO NET/IB : Using [0]mlx5_2:1/RoCE [1]mlx5_3:1/RoCE [RO]; OOB enp0s20f0u5u2c2:169.254.3.1<0>
+g23:1096768:1096966 [1] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+g23:1096768:1096966 [1] NCCL INFO Using network IB
+g23:1096768:1096966 [1] NCCL INFO DMA-BUF is available on GPU device 1
+g23:1096768:1096966 [1] NCCL INFO ncclCommInitRankConfig comm 0x56549b1ff600 rank 1 nranks 2 cudaDev 1 nvmlDev 1 busId 9b000 commId 0x7373382c5ae51cf7 - Init START
+g23:1096768:1096966 [1] NCCL INFO RAS client listening socket at ::1<28028>
+g23:1096768:1096966 [1] NCCL INFO Bootstrap timings total 0.013576 (create 0.000022, send 0.000070, recv 0.000102, ring 0.000028, delay 0.000000)
+g23:1096768:1096966 [1] NCCL INFO MNNVL busId 0x9b000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+g23:1096768:1096966 [1] NCCL INFO comm 0x56549b1ff600 rank 1 nRanks 2 nNodes 1 localRanks 2 localRank 1 MNNVL 0
+g23:1096768:1096966 [1] NCCL INFO Trees [0] -1/-1/-1->1->0 [1] -1/-1/-1->1->0 [2] -1/-1/-1->1->0 [3] -1/-1/-1->1->0 [4] -1/-1/-1->1->0 [5] -1/-1/-1->1->0 [6] 0/-1/-1->1->-1 [7] 0/-1/-1->1->-1 [8] 0/-1/-1->1->-1 [9] 0/-1/-1->1->-1 [10] 0/-1/-1->1->-1 [11] 0/-1/-1->1->-1 [12] -1/-1/-1->1->0 [13] -1/-1/-1->1->0 [14] -1/-1/-1->1->0 [15] -1/-1/-1->1->0 [16] -1/-1/-1->1->0 [17] -1/-1/-1->1->0 [18] 0/-1/-1->1->-1 [19] 0/-1/-1->1->-1 [20] 0/-1/-1->1->-1 [21] 0/-1/-1->1->-1 [22] 0/-1/-1->1->-1 [23] 0/-1/-1->1->-1
+g23:1096768:1096966 [1] NCCL INFO P2P Chunksize set to 524288
+g23:1096768:1096979 [1] NCCL INFO [Proxy Service] Device 1 CPU core 111
+g23:1096768:1096982 [1] NCCL INFO [Proxy Service UDS] Device 1 CPU core 111
+g23:1096768:1096966 [1] NCCL INFO threadThresholds 8/8/64 | 16/8/64 | 512 | 512
+g23:1096768:1096966 [1] NCCL INFO 24 coll channels, 24 collnet channels, 0 nvls channels, 32 p2p channels, 32 p2p channels per peer
+g23:1096768:1096966 [1] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+g23:1096768:1096966 [1] NCCL INFO ncclCommInitRankConfig comm 0x56549b1ff600 rank 1 nranks 2 cudaDev 1 nvmlDev 1 busId 9b000 commId 0x7373382c5ae51cf7 - Init COMPLETE
+g23:1096768:1096966 [1] NCCL INFO Init timings - ncclCommInitRankConfig: rank 1 nranks 2 total 0.36 (kernels 0.28, alloc 0.04, bootstrap 0.01, allgathers 0.00, topo 0.01, graphs 0.00, connections 0.01, rest 0.00)
+g23:1096768:1096985 [1] NCCL INFO Channel 00/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096768:1096985 [1] NCCL INFO Channel 01/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096768:1096985 [1] NCCL INFO Channel 02/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096768:1096985 [1] NCCL INFO Channel 03/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096768:1096985 [1] NCCL INFO Channel 04/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096768:1096985 [1] NCCL INFO Channel 05/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096768:1096985 [1] NCCL INFO Channel 06/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096768:1096985 [1] NCCL INFO Channel 07/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096768:1096985 [1] NCCL INFO Channel 08/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096768:1096985 [1] NCCL INFO Channel 09/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096768:1096985 [1] NCCL INFO Channel 10/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096768:1096985 [1] NCCL INFO Channel 11/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096768:1096985 [1] NCCL INFO Channel 12/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096768:1096985 [1] NCCL INFO Channel 13/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096768:1096985 [1] NCCL INFO Channel 14/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096768:1096985 [1] NCCL INFO Channel 15/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096768:1096985 [1] NCCL INFO Channel 16/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096767:1096965 [0] NCCL INFO Init timings - ncclCommInitRankConfig: rank 0 nranks 2 total 0.36 (kernels 0.28, alloc 0.03, boot[2025-10-20 20:31:20.612111] Rank 0 After Barrier
+g23:1096768:1096985 [1] NCCL INFO Channel 17/0 : 1[1] -> 0[0] via P2P/[2025-10-20 20:31:20.612113] Rank 1 After Barrier
+Exiting Successfully
+Exiting Successfully
+strap 0.02, allgathers 0.00, topo 0.01, graphs 0.00, connections 0.01, rest 0.00)
+g23:1096767:1096984 [0] NCCL INFO Channel 00/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 01/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 02/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 03/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 04/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 05/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 06/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 07/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 08/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 09/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 10/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 11/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 12/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 13/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 14/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 15/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 16/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 17/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 18/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 19/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 20/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 21/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 22/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Channel 23/0 : 0[0] -> 1[1] via P2P/CUMEM
+g23:1096767:1096984 [0] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+g23:1096767:1097001 [0] NCCL INFO comm 0x55bec57b6350 rank 0 nranks 2 cudaDev 0 busId 5d000 - Destroy COMPLETE
+CUMEM
+g23:1096768:1096985 [1] NCCL INFO Channel 18/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096768:1096985 [1] NCCL INFO Channel 19/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096768:1096985 [1] NCCL INFO Channel 20/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096768:1096985 [1] NCCL INFO Channel 21/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096768:1096985 [1] NCCL INFO Channel 22/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096768:1096985 [1] NCCL INFO Channel 23/0 : 1[1] -> 0[0] via P2P/CUMEM
+g23:1096768:1096985 [1] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+g23:1096768:1097000 [1] NCCL INFO comm 0x56549b1ff600 rank 1 nranks 2 cudaDev 1 busId 9b000 - Destroy COMPLETE

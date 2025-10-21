@@ -1,4 +1,5 @@
 import torch.distributed as dist
+import torch
 import os
 import datetime
 import time
@@ -14,7 +15,11 @@ def main():
 
     print('From Rank: {}, ==> Initializing Process Group...'.format(rank), flush=True)
 
-    dist.init_process_group(backend="nccl", timeout=datetime.timedelta(hours=1.0), init_method=f"tcp://{os.environ.get('MASTER_ADDR')}:9437", world_size=int(os.environ.get('SLURM_NTA>
+    dist.init_process_group(backend="nccl", 
+                            timeout=datetime.timedelta(hours=1.0), 
+                            init_method=f"tcp://{os.environ.get('MASTER_ADDR')}:9437", 
+                            world_size=int(os.environ.get('SLURM_NTASKS_PER_NODE')) * int(os.environ.get('SLURM_JOB_NUM_NODES')), 
+                            rank=rank)
 
     random.seed(rank)
 

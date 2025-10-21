@@ -8,6 +8,8 @@
 #SBATCH --time=00:30:00
 #SBATCH --output=two_gpus_multinode.out
 
+module load python
+
 srun -N $SLURM_NNODES -n $SLURM_NNODES bash << EOF
 virtualenv --no-download $SLURM_TMPDIR/env
 source $SLURM_TMPDIR/env/bin/activate
